@@ -1,0 +1,19 @@
+{
+  "name": "Figurinhas Personalizadas",
+  "short_name": "Figurinhas",
+  "description": "Crie figurinhas personalizadas para WhatsApp com sua foto, profissão, esporte ou logo da empresa.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf9fc",
+  "theme_color": "#1a1a22",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
