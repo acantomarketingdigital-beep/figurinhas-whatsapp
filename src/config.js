@@ -6,10 +6,10 @@
 export const CONFIG = {
   // Número do WhatsApp no formato internacional, SOMENTE dígitos.
   // Exemplo real: "5541999998888" (55 + DDD + número)
-  whatsappNumber: "55SEUNUMERO",
+  whatsappNumber: "5541998362692",
 
   // Chave PIX que será exibida e copiada pelo cliente.
-  pixKey: "SUA_CHAVE_PIX",
+  pixKey: "36205410000116",
 
   // Domínio final do site (usado em SEO, canonical, sitemap e schema.org)
   domain: "https://SEUDOMINIO.com",
