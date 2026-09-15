@@ -446,13 +446,29 @@ button {
   padding: 8px;
 }
 .example-visual--split {
-  gap: 10px;
+  gap: 12px;
   font-size: 2rem;
   background: linear-gradient(135deg, #ede9fe, #fbcfe8);
+  padding: 16px;
+}
+.example-visual--split img {
+  width: 42%;
+  height: 85%;
+  padding: 0;
+  border-radius: var(--radius-sm);
+}
+.example-visual--split .before-img {
+  object-fit: cover;
+  box-shadow: var(--shadow-sm);
+  background: #fff;
+}
+.example-visual--split .after-img {
+  object-fit: contain;
 }
 .split-arrow {
   color: var(--color-purple);
   font-size: 1.4rem;
+  flex-shrink: 0;
 }
 .example-card figcaption {
   padding: 10px 12px 14px;
